@@ -1,6 +1,21 @@
-# Getting Started with Create React App
+# Introduction
+This project shows the trips retrieved from an API.
+It uses react along with some other 3rd party modules such as react bootstrap.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```
+1. This is a single page application (SPA) with the added functionality of routing. This is achieved by using React Router.
+1. On Trips page, all the trips are fetched from another application which is further connected to a database.
+1. Use the arrows `<` and `>` at bottom of the page to navigate between pages
+1. Each page shows 10 bike trips at a time
+1. Different colors make Subscribers and Customers look separate from each other
+1. Click each trip to get more details about that trip.
+1. After a trip is clicked, it shows the details along with a map having start and end locations marked.
+1. The user is allowed to update any trip by using react forms.
+```
+
+Demo the project [here](https://citibike-trips.vercel.app/)
+
+
 
 ## Available Scripts
 
@@ -39,32 +54,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
