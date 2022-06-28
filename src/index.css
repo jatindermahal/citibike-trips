@@ -1,0 +1,24 @@
+.table-hover tr:hover {
+  cursor: pointer;
+}
+.Subscriber {
+  background-color: rgba(173, 216, 230, 0.455);
+  color: black;
+}
+.Customer {
+  background-color: lightgray;
+  color: black;
+}
+.spinner {
+  margin-top: 20%;
+  margin-left: 45%;
+}
+
+ul li {
+  padding: 2px;
+}
+
+.card-title {
+  font-size: 28px;
+  font-weight: 500;
+}
